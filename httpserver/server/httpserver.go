@@ -13,16 +13,16 @@ import (
 // 	PrintStringoResponseWriter(w, score)
 // }
 
-type InMemoryStore struct {
-	score int
-}
+// type InMemoryStore struct {
+// 	score int
+// }
 
-func (i *InMemoryStore) GetPlayerScore(player string) int {
-	return 123
-}
-func (i *InMemoryStore) RecordWin(player string) {
+// func (i *InMemoryStore) GetPlayerScore(player string) int {
+// 	return 123
+// }
+// func (i *InMemoryStore) RecordWin(player string) {
 
-}
+// }
 
 type PlayerStore interface {
 	GetPlayerScore(player string) int
